@@ -1,0 +1,26 @@
+# This file contains all the messages required for the plugin.
+# DO NOT delete any messages here completely or it may break the plugin.
+# You're free to change them as you please, however.
+# You can find more information about this file here:
+# https://github.com/josantonius/minecraft-ray
+
+announcement:
+  death_reason: "A lightning strike has hit {1}"
+
+error:
+  command:
+    for_players: "<red>This command can only be used by players"
+    permission: "<red>You do not have permission to use this command"
+  player:
+    offline: "<red>{1} was not found"
+    target: "<red>You cannot launch a lightning strike at this player"
+
+help:
+  header: "<white>COMMANDS"
+  ray_all: "<gold>{1}<gray> - <aqua>Strike all players with lightning"
+  ray_player: "<gold>{1}<gray> - <aqua>Strike players with lightning"
+  ray: "<gold>{1}<gray> - <aqua>Strike lightning at target location"
+  reload: "<gold>{1}<gray> - <aqua>Reload the plugin"
+
+plugin:
+  reloaded: "<green>Configuration successfully reloaded!"

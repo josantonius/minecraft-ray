@@ -1,0 +1,11 @@
+# This is the main configuration file for the plugin.
+# You can find more information about this file here:
+# https://github.com/josantonius/minecraft-ray
+
+# A boolean value determining whether server operators (OPs) should be excluded from the plugin's effects.
+# Set this to 'true' to exclude operators, or 'false' to include them.
+excludeOperators: false
+
+# A list of player names who are considered safe and will not be affected by the plugin.
+# Set this to 'null' or an empty list '[]' if you don't want to have any safe players.
+safePlayers: null

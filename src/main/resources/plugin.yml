@@ -1,0 +1,31 @@
+name: Ray
+version: 1.0.0
+main: dev.josantonius.minecraft.ray.Main
+api-version: 1.19
+author: Josantonius
+description: Launch lightning bolts at other players or specific locations.
+
+commands:
+  ray:
+    description: Launches a beam where the player is aiming, at specific players, or at all online players.
+    usage: |
+      /ray
+      /ray <player> [player...] [mortal]
+      /ray * [mortal]
+    permission: ray.admin
+    permission-message: "&cYou don't have permission to use this command."
+  rayhelp:
+    description: Show plugin help.
+    usage: /rayhelp
+    permission: ray.admin
+    permission-message: "&cYou don't have permission to use this command."
+  rayreload:
+    description: Reload the plugin.
+    usage: /rayreload
+    permission: ray.admin
+    permission-message: "&cYou don't have permission to use this command."
+
+permissions:
+  ray.admin:
+    default: op
+    description: Allows the use of plugin commands
