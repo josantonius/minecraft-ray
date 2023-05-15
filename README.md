@@ -1,6 +1,5 @@
 # Minecraft Ray Plugin
 
-[![Release](https://jitpack.io/v/dev.josantonius/minecraft-ray.svg)](https://jitpack.io/#dev.josantonius/minecraft-ray)
 [![License](https://img.shields.io/github/license/josantonius/minecraft-ray)](LICENSE)
 
 Launches a lightning bolt to where the player is aiming, to specific players or to all players online.
